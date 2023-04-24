@@ -1,0 +1,15 @@
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/bin/Debug/net7.0/employee-payroll-oops
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/bin/Debug/net7.0/employee-payroll-oops.deps.json
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/bin/Debug/net7.0/employee-payroll-oops.runtimeconfig.json
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/bin/Debug/net7.0/employee-payroll-oops.dll
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/bin/Debug/net7.0/employee-payroll-oops.pdb
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.csproj.AssemblyReference.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.GeneratedMSBuildEditorConfig.editorconfig
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.AssemblyInfoInputs.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.AssemblyInfo.cs
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.csproj.CoreCompileInputs.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.dll
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/refint/employee-payroll-oops.dll
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.pdb
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/employee-payroll-oops.genruntimeconfig.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/employee-payroll-oops/obj/Debug/net7.0/ref/employee-payroll-oops.dll
