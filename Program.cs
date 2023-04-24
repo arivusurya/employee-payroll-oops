@@ -10,7 +10,7 @@ namespace EmployeeParoll{
         public static void Main(string[] args)
         {
             
-            Employee.dailywage();
+            Employee.Monthlywage();
             
         }
     }
