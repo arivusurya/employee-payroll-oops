@@ -9,7 +9,9 @@ namespace EmployeeParoll{
     class Prgram{
         public static void Main(string[] args)
         {
+            
             Employee.dailywage();
+            
         }
     }
 }

@@ -14,18 +14,30 @@ namespace employee_payroll_oops
             return employeecheck;
         }
 
+        public static int employeeHours(){
+            int emplyeecheck  = checkEmployee();
+            int employeeHour = 0;
+
+            switch (emplyeecheck){
+                case 1:
+                    employeeHour = 8;
+                    break;
+                case 2:
+                    employeeHour =4;
+                    break;
+                default :
+                    employeeHour =0;
+                    break;
+            }
+            return employeeHour;
+        }
+
         public static void dailywage(){
             int dailywage = 0;
-            int emplyeecheck = checkEmployee();
-            if(emplyeecheck == 1){
-                 dailywage = wagePerHour * FulldayHour ;
-                Console.WriteLine("Dailywage of Employee: " + dailywage);
-            }else if(emplyeecheck == 2){
-                 dailywage = wagePerHour * ParttimeHour ;
-                Console.WriteLine("Dailywage of Employee: " + dailywage);
-            }else{
-                Console.WriteLine("Dailywage of Employee: " + dailywage);
-            }           
+            int emphour = employeeHours();
+
+            dailywage = wagePerHour * emphour;
+            Console.WriteLine("Dailywage of Employee: " + dailywage);         
          }
 
     }
