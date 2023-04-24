@@ -32,25 +32,36 @@ namespace employee_payroll_oops
             return employeeHour;
         }
 
-        public static int dailywage(){
+        public static int dailywage(int emphour){
             int dailywage = 0;
-            int emphour = employeeHours();
+            
 
             dailywage = wagePerHour * emphour;
 
             return dailywage;        
          }
 
-        public static void Monthlywage(){
-            int totalworkingday =20;
-            int Totalwage =0 ;
+       
 
-            for (int i = 0; i <= totalworkingday; i++){
-                int wage = dailywage();
-                Console.WriteLine("Employee Wage is " + wage);
-                Totalwage +=wage;
+        public static void MonthlywageConsdition(){
+            int day = 0;
+            int totalworkingday =20;
+            int hour =0 ;
+            int MaxHour =100;
+            int Totalwage = 0;
+
+            while(day < totalworkingday && hour < MaxHour){
+                day++;
+
+                int workingHour = employeeHours();
+                hour = hour + workingHour; 
+                int wage = dailywage(workingHour);
+                Console.WriteLine($"Employee Wage on {day} : {wage}");
+                Totalwage = Totalwage + wage;
             }
-            Console.WriteLine("Totalwage is " + Totalwage);
+            Console.WriteLine($"Total working Hour : {hour}");
+            Console.WriteLine($"Total Employee wage  : {Totalwage}");
+
 
         }
     }
