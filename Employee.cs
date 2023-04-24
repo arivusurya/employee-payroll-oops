@@ -34,10 +34,7 @@ namespace employee_payroll_oops
 
         public static int dailywage(int emphour){
             int dailywage = 0;
-            
-
             dailywage = wagePerHour * emphour;
-
             return dailywage;        
          }
 
